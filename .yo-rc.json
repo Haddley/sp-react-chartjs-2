@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.5.1",
+    "libraryName": "sp-react-chartjs-2",
+    "libraryId": "a4993e76-535f-45b4-9c08-2093ee055d2f",
+    "environment": "spo",
+    "packageManager": "npm",
+    "isCreatingSolution": false,
+    "componentType": "webpart"
+  }
+}

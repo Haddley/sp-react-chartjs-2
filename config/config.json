@@ -1,0 +1,90 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "line-chart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/lineChart/LineChartWebPart.js",
+          "manifest": "./src/webparts/lineChart/LineChartWebPart.manifest.json"
+        }
+      ]
+    },
+    "doughnut-chart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/doughnutChart/DoughnutChartWebPart.js",
+          "manifest": "./src/webparts/doughnutChart/DoughnutChartWebPart.manifest.json"
+        }
+      ]
+    },
+    "bar-chart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/barChart/BarChartWebPart.js",
+          "manifest": "./src/webparts/barChart/BarChartWebPart.manifest.json"
+        }
+      ]
+    },
+    "bubble-chart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/bubbleChart/BubbleChartWebPart.js",
+          "manifest": "./src/webparts/bubbleChart/BubbleChartWebPart.manifest.json"
+        }
+      ]
+    },
+    "horizontal-bar-chart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/horizontalBarChart/HorizontalBarChartWebPart.js",
+          "manifest": "./src/webparts/horizontalBarChart/HorizontalBarChartWebPart.manifest.json"
+        }
+      ]
+    },
+    "pie-chart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pieChart/PieChartWebPart.js",
+          "manifest": "./src/webparts/pieChart/PieChartWebPart.manifest.json"
+        }
+      ]
+    },
+    "polar-chart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/polarChart/PolarChartWebPart.js",
+          "manifest": "./src/webparts/polarChart/PolarChartWebPart.manifest.json"
+        }
+      ]
+    },
+    "radar-chart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/radarChart/RadarChartWebPart.js",
+          "manifest": "./src/webparts/radarChart/RadarChartWebPart.manifest.json"
+        }
+      ]
+    },
+    "scatter-chart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/scatterChart/ScatterChartWebPart.js",
+          "manifest": "./src/webparts/scatterChart/ScatterChartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "LineChartWebPartStrings": "lib/webparts/lineChart/loc/{locale}.js",
+    "DoughnutChartWebPartStrings": "lib/webparts/doughnutChart/loc/{locale}.js",
+    "BarChartWebPartStrings": "lib/webparts/barChart/loc/{locale}.js",
+    "BubbleChartWebPartStrings": "lib/webparts/bubbleChart/loc/{locale}.js",
+    "HorizontalBarChartWebPartStrings": "lib/webparts/horizontalBarChart/loc/{locale}.js",
+    "PieChartWebPartStrings": "lib/webparts/pieChart/loc/{locale}.js",
+    "PolarChartWebPartStrings": "lib/webparts/polarChart/loc/{locale}.js",
+    "RadarChartWebPartStrings": "lib/webparts/radarChart/loc/{locale}.js",
+    "ScatterChartWebPartStrings": "lib/webparts/scatterChart/loc/{locale}.js"
+  }
+}

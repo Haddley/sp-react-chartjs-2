@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-react-chartjs-2-client-side-solution",
+    "id": "a4993e76-535f-45b4-9c08-2093ee055d2f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-react-chartjs-2.sppkg"
+  }
+}
