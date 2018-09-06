@@ -2,7 +2,7 @@
 
 Makes chartjs.org features available to SharePoint users using react-chartjs-2 wrapper.
 
-![alt text](/demo.png)"Demo Image"
+![alt text](/demo.png)
 
 ### Building the code
 
