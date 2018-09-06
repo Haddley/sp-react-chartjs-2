@@ -1,6 +1,8 @@
 ## sp-react-chartjs-2
 
-This is where you include your WebPart documentation.
+Makes chartjs.org features available to SharePoint users using react-chartjs-2 wrapper.
+
+![alt text](/demo.png)"Demo Image"
 
 ### Building the code
 

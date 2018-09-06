@@ -31,7 +31,7 @@ export default class BarChart extends React.Component<IBarChartProps, {}> {
               <Bar
                 data={data}
                 width={100}
-                height={50}
+                height={100}
                 options={{
                   maintainAspectRatio: false
                 }}
