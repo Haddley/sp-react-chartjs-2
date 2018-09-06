@@ -39,6 +39,11 @@ export default class ScatterChart extends React.Component<IScatterChartProps, {}
     return (
       <div className={styles.scatterChart}>
         <div className={styles.container}>
+
+          <div className={styles["webpart-header"]}>
+            <span className={styles["view"]}>{this.props.description}</span>
+          </div>
+
           <div className={styles.row}>
             <div className={styles.column}>
 

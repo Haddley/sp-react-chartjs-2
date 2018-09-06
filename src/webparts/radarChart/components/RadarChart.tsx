@@ -36,6 +36,11 @@ export default class RadarChart extends React.Component<IRadarChartProps, {}> {
     return (
       <div className={styles.radarChart}>
         <div className={styles.container}>
+
+          <div className={styles["webpart-header"]}>
+            <span className={styles["view"]}>{this.props.description}</span>
+          </div>
+
           <div className={styles.row}>
             <div className={styles.column}>
 

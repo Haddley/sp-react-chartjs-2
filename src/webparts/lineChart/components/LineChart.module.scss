@@ -1,16 +1,45 @@
 @import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
 
 .lineChart {
+
+  .webpart-header {
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    & .edit {
+        background-color: transparent;
+        border: none;
+        box-sizing: border-box;
+        display: block;
+        margin: 0;
+        outline: 0;
+        overflow: hidden;
+        resize: none;
+        white-space: pre;
+        width: 100%;
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        text-align: inherit;
+        color: #333333;
+        height: 40px;
+    }
+    & .view {
+        color: #333333;
+    }
+  }
+
   .container {
     max-width: 700px;
     margin: 0px auto;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);*/
   }
 
   .row {
     @include ms-Grid-row;
     @include ms-fontColor-white;
-    background-color: $ms-color-themeLight;
+    /*background-color: $ms-color-themeLight;*/
     padding: 20px;
   }
 

@@ -25,6 +25,11 @@ export default class BarChart extends React.Component<IBarChartProps, {}> {
     return (
       <div className={styles.barChart}>
         <div className={styles.container}>
+
+          <div className={styles["webpart-header"]}>
+            <span className={styles["view"]}>{this.props.description}</span>
+          </div>
+
           <div className={styles.row}>
             <div className={styles.column}>
 

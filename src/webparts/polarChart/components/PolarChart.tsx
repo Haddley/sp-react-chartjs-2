@@ -36,6 +36,11 @@ export default class PolarChart extends React.Component<IPolarChartProps, {}> {
     return (
       <div className={styles.polarChart}>
         <div className={styles.container}>
+
+          <div className={styles["webpart-header"]}>
+            <span className={styles["view"]}>{this.props.description}</span>
+          </div>
+
           <div className={styles.row}>
             <div className={styles.column}>
 

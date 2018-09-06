@@ -31,11 +31,18 @@ const data = {
   ]
 };
 
+// https://blog.mptolly.com/creating-an-inline-editable-web-part-title-in-spfx/
+
 export default class BubbleChart extends React.Component<IBubbleChartProps, {}> {
   public render(): React.ReactElement<IBubbleChartProps> {
     return (
       <div className={styles.bubbleChart}>
         <div className={styles.container}>
+
+        <div className={styles["webpart-header"]}>
+          <span className={styles["view"]}>{this.props.description}</span>        
+        </div>
+
           <div className={styles.row}>
             <div className={styles.column}>
 
@@ -45,6 +52,7 @@ export default class BubbleChart extends React.Component<IBubbleChartProps, {}> 
           </div>
         </div>
       </div>
+
     );
   }
 }
